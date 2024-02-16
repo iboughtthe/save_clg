@@ -1,7 +1,7 @@
-import pyrogram
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant, InviteHashExpired, UsernameNotOccupied
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.session.api import auth
 
 import time
 import os
@@ -20,8 +20,15 @@ gagan = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = getenv("STRING")
 if ss is not None:
-	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
+	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash)
 	acc.start()
+
+new_session_string = auth.export_session_string(acc)
+
+with open("session.txt", "w") as file:
+    file.write(new_session_string)
+
+
 else: acc = None
 
 import os
