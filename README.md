@@ -38,6 +38,7 @@ __MULTI POSTS__
 
 _send public/private posts link as explained above with formate "from - to" to send multiple messages like below_
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iboughtthe/save_clg)
 
 ```
 https://t.me/xxxx/1001-1010
