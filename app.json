@@ -1,0 +1,25 @@
+{
+  "name": "My Telegram Bot App",
+  "description": "A Node.js app for running a Telegram bot using Pyrogram",
+  "repository": "https://github.com/yourusername/yourrepo",
+  "logo": "https://yourdomain.com/path/to/your/logo.png",
+  "keywords": ["telegram", "bot", "pyrogram"],
+  "env": {
+    "API_HASH": {
+      "description": "Your API HASH from my.telegram.org",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your API ID from my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token, get it from @BotFather.",
+      "value": ""
+    },
+    "SESSION": {
+      "description": "Pyrogram string session.",
+      "value": ""
+    }
+  }
+}
