@@ -1,8 +1,8 @@
 {
-  "name": "My Telegram Bot App",
-  "description": "A Node.js app for running a Telegram bot using Pyrogram",
-  "repository": "https://github.com/yourusername/yourrepo",
-  "logo": "https://yourdomain.com/path/to/your/logo.png",
+  "name": "ANKIT SINGH (TEAM SPY)",
+  "description": "A Telegram bot using Pyrogram",
+  "repository": "https://github.com/iboughtthe/save_clg",
+  "logo": "https://telegra.ph/file/4fecc2f906b383faac272.jpg",
   "keywords": ["telegram", "bot", "pyrogram"],
   "env": {
     "API_HASH": {
